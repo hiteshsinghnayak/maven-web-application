@@ -99,7 +99,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.252.173.144:9980/mithuntechnologies/repository/wallmart-release/</url>
+	      <url>http://65.2.82.158:8081/repository/facebook-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
