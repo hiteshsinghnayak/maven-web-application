@@ -23,12 +23,15 @@ options {
 		sh "mvn clean package"
 		}
 		}
+		
+	/*
 	//execute sonarqube
 		stage('sonar'){
 		steps{
 		sh "mvn clean sonar:sonar"
 		}
 		}
+		
 	//upload artifact
 		stage('nexus'){
 		steps{
@@ -43,7 +46,8 @@ options {
     sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@ip-172-31-3-201:/opt/apache-tomcat-9.0.56/webapps/"
 		}
 		}
-		}	
+		}
+	*/
 	}//stages closing
 
 
